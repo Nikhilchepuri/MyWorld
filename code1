@@ -1,0 +1,196 @@
+#l=[1,2,3,4,5]
+#for num in l:
+ #if num % 2 == 0:
+  #print " its an even number"
+ #else:
+  #print " its an odd number"
+  
+#l=[1,2,3,4,5]
+
+#sum = 2
+
+
+#for num in l:
+
+ #sum = sum + num
+ 
+#print sum 
+
+
+#s = "Hey sonu how are you"
+#for item in s:
+# print item
+
+#while
+
+#x=0
+#while x < 10:
+# print " Hey something : ",x
+# x+=1
+#else:
+# print "all done!!"
+  
+ #break,continue 
+  
+#x=0
+#while x<10:
+ #print " hey you can go : ",x
+ ##print " if x is less than 10 add x"
+ #x+=1
+ 
+ #if x == 3:
+ ## print " hey x is equal to 3"
+ # break
+   
+ #else:
+ # print "continuing"
+ # continue
+
+#range 
+#start = 5
+#stop = 25
+#print range(start,stop)
+
+#l=[1,2,3,4,5]
+#for num in range(1,5):
+ #print l 
+
+ #methods
+ 
+#l=[1,2,2,2,3,4,5]
+
+#print l.count(2)
+
+
+
+
+#functions
+
+#def sonu_add(arg1,arg2):
+ #print arg1 + arg2
+#sonu_add(3,2)
+
+
+#def wishing(name):
+ #print "hello " + name
+#wishing("amu")
+
+
+#def adding_num(num1,num2):
+ #return num1+num2
+#print adding_num(1,2)
+
+
+#def prime(num):
+#"""
+#Input : number
+#output : print number is prime or not the prime
+
+#"""
+# for n in range(2,num):
+#  if num % n ==0:
+#   print "not prime"
+#   break
+# else:
+#  print " prime number"
+#prime(11) 
+
+
+#oop
+#class
+
+#class dog(object):
+  
+ #def __init__(self,breed,name):
+#  self.breed = breed
+#  self.name = name
+#sam = dog(breed = "lab",name = "sonu")
+#print sam.name
+
+
+# errors and exception handling
+
+#try:
+ #2 + "s"
+
+#except:
+ # print " here was an error"
+
+#finally:
+ #  print " it is printed"
+  
+
+#try:
+ #f=open("testfile1232","r")
+ #f.write("test write this")
+
+#except:
+ #print"error in writing"
+#else:
+# print"it is sucess"
+ 
+ 
+def sonuint():
+ try:
+    val = int(raw_input("please enter the integer: "))
+ except:
+    print"looks like you did not enter the integer"
+ finally:
+    print"finally block excuted"
+ print val	
+   
+sonuint()
+  
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+     
+   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
